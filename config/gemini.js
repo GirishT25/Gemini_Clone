@@ -5,7 +5,7 @@ import {
   HarmBlockThreshold,
 } from "@google/generative-ai";
 
-const API_KEY = "AIzaSyAOSX_UzdUny1l91uVE4J8mRnthYyS_SLg";
+const API_KEY = "YOUR_API_KEY";
 
 async function runChat(prompt) {
   const genAI = new GoogleGenerativeAI(API_KEY);
